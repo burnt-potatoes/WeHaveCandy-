@@ -1,0 +1,27 @@
+#print * table 0-11
+
+print("The Multiplication Table: ")
+
+#Ciclo loop? for print tables Multiplication 
+for x in range(0,13):
+  
+  # Conditon for print only the multiplos
+  if x%3 == 0:
+    print(" ")
+    print("Table of: ",x)
+    #Ciclo (loop) for print the long table
+    for i in range(0, 10):
+    #Print the result
+     print(x,"*",i,"=",x*i)
+##
+print(" ")
+print ("Hi now write the number of you table multiplication want")
+print(" ")
+
+o = int(input("Number: "))
+
+for y in range(0,13):
+  print(o,"*",y,"=",o*y)
+print(" ")
+##dundadadadadadadadadadundadadadadadadada
+# IsaCode || AtonCode 
